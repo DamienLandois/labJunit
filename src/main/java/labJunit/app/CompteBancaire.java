@@ -2,10 +2,6 @@ package labJunit.app;
 
 public class CompteBancaire {
     private double solde;
-
-    public CompteBancaire() {
-        this.solde = 0.0;
-    }
     
     public CompteBancaire(double soldeInitial) {
         this.solde = soldeInitial;
